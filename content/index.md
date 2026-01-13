@@ -1,25 +1,38 @@
 ---
 title: Jonathan Dries
-description: Academic portfolio of Jonathan Dries. Researching Cultural Economics, with field notes and photography from travels.
+description: PhD candidate in Economics at LUISS University. Researching political economy, cultural economics, and economic history.
 ---
----
-Welcome. I am a researcher in **Cultural Economics** based in Belgium.
-My work focuses on [specific topic, e.g., heritage, valuation, art markets].
 
-### Research & Writing
-* [[About Me]] - My CV and academic background.
-* [[Current Projects]] - What I am working on right now.
-* [[Publications]] - Papers and articles.
+# Jonathan Dries
+
+Welcome. I am a Belgian PhD candidate in Economics at **LUISS University**, interested in the deep-rooted determinants of growth and development.
+
+My research lies at the intersection of **political economy**, **cultural economics**, and **economic history**, using spatial and historical data to answer contemporary questions about economic development. I am currently advised by Professors Luigi Pascali and Mounu Prem.
+
+**Beyond the data,** I view travel as an extension of my research: observing how culture shapes economies in different contexts.
+
+While my academic work uses causal inference to understand development, my [[Travels|travel logs]] allow me to explore these places firsthand—learning about their history, documenting the journey through [[Photography|photography]], and engaging with local culture.
+
+---
+
+### Academic Resources
+* [[Research]] - Detailed overview of my papers and ongoing projects.
+* [**CV**](pdfs/cv.pdf) - Full academic curriculum vitae.
 
 ### Field Notes & Photography
-I view travel as an extension of my research—observing how culture shapes economies in different contexts.
-* [[Japan 2019]] - Observations on heritage preservation.
-* [[France Travel Log]] - Notes on regional art markets.
-* [[Photography Portfolio]] - Selected visual works.
+My travel logs serve as a living archive of observations from the field.
+
+* **[[India Travel Log|India]]** *(Research Grant)* - Notes funded by [PRODIGEES].
+* **Asia:** [[Indonesia Travel Log|Indonesia]], [[China Travel Log|China]]
+* **Africa:** [[South Africa Travel Log|South Africa]], [[Morocco Travel Log|Morocco]]
+* **Americas:** [[California Travel Log|California]], [[Mexico Travel Log|Mexico]]
+* **Europe:** [[Ireland Travel Log|Ireland]]
 
 ---
-*Contact: [Your Email] | [Your LinkedIn]*
-This is a blank Quartz installation.
-See the [documentation](https://quartz.jzhao.xyz) for how to get started.
 
-![[ireland-fashion.jpeg]]
+### Contact
+**Department of Economics and Finance**
+Luiss Guido Carli University
+Viale Romania 32, 00197 Rome, Italy
+
+**Email:** jvdries@luiss.it
