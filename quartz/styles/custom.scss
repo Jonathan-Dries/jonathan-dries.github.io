@@ -1,3 +1,12 @@
 @use "./base.scss";
+/* Clean Homepage: Hides the auto-title and reading time */
+.landing .article-title,
+.landing .content-meta {
+  display: none;
+}
 
+/* Optional: Removes the gap left behind */
+.landing article {
+  margin-top: 0;
+}
 // put your custom CSS here!
