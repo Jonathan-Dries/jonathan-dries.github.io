@@ -22,7 +22,7 @@ While my academic work uses causal inference to understand development, my [[Tra
 ### Field Notes & Photography
 My travel logs serve as a living archive of observations from the field.
 
-* * **[[India Travel Log|India]]** *(Research Grant)* - funded by [PRODIGEES](https://cordis.europa.eu/project/id/873119).
+* **[[India Travel Log|India]]** *(Research Grant)* - funded by [PRODIGEES](https://cordis.europa.eu/project/id/873119).
 * **Asia:** [[Indonesia Travel Log|Indonesia]], [[China Travel Log|China]]
 * **Africa:** [[South Africa Travel Log|South Africa]], [[Morocco Travel Log|Morocco]]
 * **Americas:** [[California Travel Log|California]], [[Mexico Travel Log|Mexico]]
@@ -31,8 +31,8 @@ My travel logs serve as a living archive of observations from the field.
 ---
 
 ### Contact
-**Department of Economics and Finance**
-Luiss Guido Carli University
+**Department of Economics and Finance** \
+Luiss Guido Carli University \
 Viale Romania 32, 00197 Rome, Italy
 
 **Email:** jvdries@luiss.it
