@@ -38,6 +38,7 @@ export default (() => {
 
     return (
       <head>
+        <meta name="google-site-verification" content="WoeKDLGLVodiUzAZlrcr94WMDl_dEdi2cTtDogvSt9E" />
         <title>{title}</title>
         <meta charSet="utf-8" />
         {cfg.theme.cdnCaching && cfg.theme.fontOrigin === "googleFonts" && (
