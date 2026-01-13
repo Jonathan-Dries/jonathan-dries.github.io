@@ -16,7 +16,7 @@ While my academic work uses causal inference to understand development, my [[Tra
 ---
 
 ### Academic Resources
-* [[Research]] - Detailed overview of my papers and ongoing projects.
+* [[research]] - Detailed overview of my papers and ongoing projects.
 * [**CV**](pdfs/cv.pdf) - Full academic curriculum vitae.
 
 ### Field Notes & Photography
