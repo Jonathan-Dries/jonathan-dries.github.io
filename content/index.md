@@ -1,5 +1,5 @@
 ---
-title: Jonathan Dries
+title: Lo-fi Ethnography
 description: PhD candidate in Economics at LUISS University. Researching political economy, cultural economics, and economic history.
 cssclass: landing
 ---

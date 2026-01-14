@@ -1,5 +1,6 @@
 import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
+import AtlasMap from "./quartz/components/AtlasMap"
 
 // components shared across all pages
 export const sharedPageComponents: SharedLayout = {
@@ -24,6 +25,7 @@ export const defaultContentPageLayout: PageLayout = {
     Component.ArticleTitle(),
     Component.ContentMeta(),
     Component.TagList(),
+    AtlasMap(),
   ],
   left: [
     Component.PageTitle(),
