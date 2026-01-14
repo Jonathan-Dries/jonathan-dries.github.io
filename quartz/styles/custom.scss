@@ -10,66 +10,55 @@
 .landing article {
   margin-top: 0 !important;
 }
-/* 1. The Map Container */
+/* --- LO-FI MAP STYLES --- */
+
 .vintage-map-wrapper {
   position: relative;
   margin: 2rem 0;
-  border: 4px double #5a4a42; /* Double border for that 'framed' look */
+  border: 4px double #5a4a42;
   border-radius: 4px;
   overflow: hidden;
-  background-color: #e6dace; /* Fallback beige color */
+  background-color: #e6dace;
   z-index: 1; 
-  pointer-events: auto; /* Forces the map to accept clicks */
+  pointer-events: auto; /* Ensures map is clickable */
 }
 
-/* 2. The Sepia Filter (The "Age" Effect) */
-/* Targets the map tiles to turn them brown/grey */
+/* 1. Sepia Filter for the Map Tiles */
 .leaflet-tile-pane {
   filter: sepia(0.6) contrast(1.1) grayscale(0.2);
 }
 
-/* 3. The Paper Texture Overlay */
+/* 2. Paper Texture Overlay */
 .vintage-overlay {
   position: absolute;
   top: 0; left: 0; width: 100%; height: 100%;
-  background-image: url('/assets/paper-texture.png'); /* Ensure this file exists */
+  background-image: url('/assets/paper-texture.png');
   background-size: cover;
-  opacity: 0.4; /* Adjusts how 'textured' it looks. 0.3-0.5 is sweet spot */
-  mix-blend-mode: multiply; /* Blends texture into the map */
-  pointer-events: none; /* <--- CRITICAL: Allows clicks to pass through to the map */
+  opacity: 0.4;
+  mix-blend-mode: multiply;
+  pointer-events: none; /* CRITICAL: Lets you click through the texture */
   z-index: 400; 
-  box-shadow: inset 0 0 60px rgba(60, 40, 20, 0.5); /* Inner shadow vignette */
+  box-shadow: inset 0 0 60px rgba(60, 40, 20, 0.5);
 }
 
-/* 4. Interface Controls */
-/* Force buttons to be visible above the overlay */
+/* 3. FIX FOR THE WHITE PIN BACKGROUND */
+/* This targets the specific class we added in the TSX file */
+.lofi-pin-icon {
+  mix-blend-mode: multiply; 
+  /* 'Multiply' makes white pixels transparent and dark pixels darker */
+}
+
+/* 4. Force Controls Visibility */
 .leaflet-control-container .leaflet-control {
   z-index: 1000 !important;
   opacity: 1 !important;
   display: block !important;
 }
 
-/* Style the Zoom Buttons */
+/* Style the buttons */
 .leaflet-bar a {
   background-color: #f4f1ea !important;
   color: #5a4a42 !important;
   border: 1px solid #5a4a42 !important;
   font-family: serif;
-}
-
-/* 5. Popups */
-.leaflet-popup-content-wrapper {
-  background: #f4f1ea;
-  border: 1px solid #5a4a42;
-  border-radius: 2px;
-  font-family: 'Merriweather', serif; 
-  box-shadow: 4px 4px 0px rgba(0,0,0,0.2);
-}
-.leaflet-popup-tip {
-  background: #f4f1ea;
-}
-/* Fix for the Pin Image Transparency */
-.leaflet-marker-icon {
-  mix-blend-mode: multiply; 
-  opacity: 0.9; /* Slight fade to look like soaked ink */
 }
