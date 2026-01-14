@@ -1,12 +1,12 @@
 @use "./base.scss";
-/* Clean Homepage: Hides the auto-title and reading time */
+// put your custom CSS here!
+/* Force hide title and meta on landing page */
 .landing .article-title,
 .landing .content-meta {
-  display: none;
+  display: none !important;
 }
 
-/* Optional: Removes the gap left behind */
+/* Remove the top margin so the "About Me" isn't pushed down */
 .landing article {
-  margin-top: 0;
+  margin-top: 0 !important;
 }
-// put your custom CSS here!
