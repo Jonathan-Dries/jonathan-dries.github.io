@@ -2,8 +2,6 @@
 title: Index of Elsewhere
 tags: [atlas]
 ---
-
-# Index of Elsewhere
 *Imperfect notes on a messy world.*
 
 > [!info] Navigation

@@ -6,7 +6,7 @@ const AtlasMap: QuartzComponent = ({ fileData, allFiles, displayClass }: QuartzC
   const isCountryPage = fileData.frontmatter?.tags?.includes("country")
   const isAtlasPage = fileData.frontmatter?.tags?.includes("atlas")
 
-  // Only render if we are on the Atlas or a Country page
+  // Only render on Atlas or Country pages
   if (!isCountryPage && !isAtlasPage) return null
 
   // 2. Filter Data
@@ -45,7 +45,7 @@ const AtlasMap: QuartzComponent = ({ fileData, allFiles, displayClass }: QuartzC
     ? fileData.frontmatter?.mapView?.zoom 
     : 2
 
-  // 4. The Logic
+  // 4. The HTML & Script
   return (
     <div class={`vintage-map-wrapper ${displayClass ?? ""}`}>
       <div id="lofi-map" style="height: 450px; width: 100%; z-index: 1;"></div>
@@ -65,33 +65,37 @@ const AtlasMap: QuartzComponent = ({ fileData, allFiles, displayClass }: QuartzC
             window.leafletMap = null;
           }
 
-          // Initialize Map
+          // Initialize Map with Zoom Controls ENABLED
           const map = L.map('lofi-map', {
             center: window.currentMapView.center,
             zoom: window.currentMapView.zoom,
-            scrollWheelZoom: false,
+            scrollWheelZoom: true, // Enables mouse wheel zoom
+            zoomControl: true,     // Enables the +/- buttons
             attributionControl: false
           });
           
-          window.leafletMap = map; // Save reference for cleanup later
+          window.leafletMap = map;
 
-          // 1. RAW WATERCOLOR (Stamen via Stadia)
+          // Force zoom control to top-right (prevents layout glitches)
+          map.zoomControl.setPosition('topright');
+
+          // LAYER 1: Stamen Watercolor (Your API Key)
           L.tileLayer('https://tiles.stadiamaps.com/tiles/stamen_watercolor/{z}/{x}/{y}.jpg?api_key=ebce596a-b266-4693-ad6c-6695c5f7e623', {
             maxZoom: 16,
           }).addTo(map);
 
-          // 2. LABELS (So you can read it)
+          // LAYER 2: Stamen Labels (So you can read country names)
           L.tileLayer('https://tiles.stadiamaps.com/tiles/stamen_toner_labels/{z}/{x}/{y}.png?api_key=ebce596a-b266-4693-ad6c-6695c5f7e623', {
             maxZoom: 16,
             zIndex: 20,
             opacity: 0.7 
           }).addTo(map);
 
-          // 3. PINS (Fixing the path: /assets/ instead of /content/assets/)
+          // PINS: Using your custom image
           const inkIcon = L.icon({
-            iconUrl: '/assets/ink-pin.png', 
-            iconSize: [28, 28], 
-            iconAnchor: [14, 14],
+            iconUrl: '/assets/ink.png', // <--- Make sure this matches your filename
+            iconSize: [28, 28],         // Size in pixels (adjust if your png is huge)
+            iconAnchor: [14, 14],       // The "tip" of the pin (half of size to center it)
             popupAnchor: [0, -10]
           });
 
@@ -111,14 +115,13 @@ const AtlasMap: QuartzComponent = ({ fileData, allFiles, displayClass }: QuartzC
           
           const script = document.createElement('script');
           script.src = 'https://unpkg.com/leaflet@1.9.4/dist/leaflet.js';
-          script.onload = loadMap; // Load map when script is ready
+          script.onload = loadMap;
           document.head.appendChild(script);
         } else {
-          loadMap(); // Script already there? Just load map.
+          loadMap();
         }
 
-        // NAVIGATION EVENT LISTENER (Crucial for Quartz SPA)
-        // This listens for when you click a link and re-runs the map logic
+        // EVENT LISTENER: Reload map on page navigation
         document.addEventListener('nav', () => {
           loadMap();
         });

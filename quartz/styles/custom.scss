@@ -37,3 +37,16 @@
 }
 
 /* Remove the old .vintage-overlay class entirely since we aren't using it */
+/* Force Leaflet controls to be visible and on top */
+.leaflet-control-container .leaflet-control {
+  z-index: 1000 !important;
+  opacity: 1 !important;
+  display: block !important;
+}
+
+/* Style the buttons to match your Lo-fi theme (Optional but nice) */
+.leaflet-bar a {
+  background-color: #f4f1ea !important; /* Paper color */
+  color: #5a4a42 !important; /* Ink color */
+  border: 1px solid #5a4a42 !important;
+}
