@@ -13,6 +13,7 @@ const AtlasMap: QuartzComponent = ({ fileData, allFiles, displayClass }: QuartzC
   let mapPins = []
   
   if (isAtlasPage) {
+    // Show only Countries on the main Atlas page
     mapPins = allFiles.filter((file) => 
       file.frontmatter?.tags?.includes("country") && 
       file.frontmatter?.mapView
@@ -24,6 +25,7 @@ const AtlasMap: QuartzComponent = ({ fileData, allFiles, displayClass }: QuartzC
       type: "country"
     }))
   } else if (isCountryPage) {
+    // Show Notes on specific Country pages
     const currentCountryTag = fileData.frontmatter?.title?.toLowerCase()
     mapPins = allFiles.filter((file) => 
       file.frontmatter?.tags?.includes(currentCountryTag) && 
@@ -45,13 +47,14 @@ const AtlasMap: QuartzComponent = ({ fileData, allFiles, displayClass }: QuartzC
     ? fileData.frontmatter?.mapView?.zoom 
     : 2
 
-  // 4. The HTML & Script
+  // 4. Render HTML & Script
   return (
     <div class={`vintage-map-wrapper ${displayClass ?? ""}`}>
-      <div id="lofi-map" style="height: 450px; width: 100%; z-index: 1;"></div>
+      <div id="lofi-map" style="height: 450px; width: 100%;"></div>
+      {/* The Vintage Paper Overlay */}
+      <div class="vintage-overlay"></div>
       
       <script dangerouslySetInnerHTML={{__html: `
-        // Pass server-side data to window
         window.currentMapData = ${JSON.stringify(mapPins)};
         window.currentMapView = { center: [${center}], zoom: ${zoom} };
 
@@ -59,43 +62,37 @@ const AtlasMap: QuartzComponent = ({ fileData, allFiles, displayClass }: QuartzC
           const mapContainer = document.getElementById('lofi-map');
           if (!mapContainer) return;
 
-          // Cleanup: If a map already exists, destroy it before making a new one
+          // Cleanup existing map
           if (window.leafletMap) {
             window.leafletMap.remove();
             window.leafletMap = null;
           }
 
-          // Initialize Map with Zoom Controls ENABLED
+          // Initialize Map
           const map = L.map('lofi-map', {
             center: window.currentMapView.center,
             zoom: window.currentMapView.zoom,
-            scrollWheelZoom: true, // Enables mouse wheel zoom
-            zoomControl: true,     // Enables the +/- buttons
+            scrollWheelZoom: true, 
+            zoomControl: true,
             attributionControl: false
           });
           
           window.leafletMap = map;
 
-          // Force zoom control to top-right (prevents layout glitches)
+          // Force zoom control to top-right
           map.zoomControl.setPosition('topright');
 
-          // LAYER 1: Stamen Watercolor (Your API Key)
-          L.tileLayer('https://tiles.stadiamaps.com/tiles/stamen_watercolor/{z}/{x}/{y}.jpg?api_key=ebce596a-b266-4693-ad6c-6695c5f7e623', {
-            maxZoom: 16,
+          // TILE LAYER: Esri World Physical (The Vintage Atlas Look)
+          L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Physical_Map/MapServer/tile/{z}/{y}/{x}', {
+            maxZoom: 8,
+            subdomains: 'abcd'
           }).addTo(map);
 
-          // LAYER 2: Stamen Labels (So you can read country names)
-          L.tileLayer('https://tiles.stadiamaps.com/tiles/stamen_toner_labels/{z}/{x}/{y}.png?api_key=ebce596a-b266-4693-ad6c-6695c5f7e623', {
-            maxZoom: 16,
-            zIndex: 20,
-            opacity: 0.7 
-          }).addTo(map);
-
-          // PINS: Using your custom image
+          // PINS: Your custom image
           const inkIcon = L.icon({
-            iconUrl: '/assets/ink.png', // <--- Make sure this matches your filename
-            iconSize: [28, 28],         // Size in pixels (adjust if your png is huge)
-            iconAnchor: [14, 14],       // The "tip" of the pin (half of size to center it)
+            iconUrl: '/assets/ink.png', 
+            iconSize: [28, 28],        
+            iconAnchor: [14, 14],      
             popupAnchor: [0, -10]
           });
 
@@ -105,7 +102,7 @@ const AtlasMap: QuartzComponent = ({ fileData, allFiles, displayClass }: QuartzC
           });
         }
 
-        // RESOURCE LOADER: Only load Leaflet CSS/JS once
+        // LOAD RESOURCES
         if (!document.getElementById('leaflet-css')) {
           const link = document.createElement('link');
           link.id = 'leaflet-css';
@@ -121,7 +118,7 @@ const AtlasMap: QuartzComponent = ({ fileData, allFiles, displayClass }: QuartzC
           loadMap();
         }
 
-        // EVENT LISTENER: Reload map on page navigation
+        // SPA NAVIGATION FIX
         document.addEventListener('nav', () => {
           loadMap();
         });
