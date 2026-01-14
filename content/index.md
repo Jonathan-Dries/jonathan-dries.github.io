@@ -1,7 +1,7 @@
 ---
 title: Jonathan Dries
 description: PhD candidate in Economics at LUISS University. Researching political economy, cultural economics, and economic history.
-cssclasses: landing
+cssclass: landing
 ---
 # Welcome
 
