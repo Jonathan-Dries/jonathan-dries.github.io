@@ -68,3 +68,8 @@
 .leaflet-popup-tip {
   background: #f4f1ea;
 }
+/* Fix for the Pin Image Transparency */
+.leaflet-marker-icon {
+  mix-blend-mode: multiply; 
+  opacity: 0.9; /* Slight fade to look like soaked ink */
+}
