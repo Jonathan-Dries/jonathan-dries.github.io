@@ -1,20 +1,17 @@
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
-// Note: Leaflet must be imported dynamically in Next/Quartz usually, 
-// but for this snippet, we will handle the logic in the script that gets emitted.
 
 const AtlasMap: QuartzComponent = ({ fileData, allFiles, displayClass }: QuartzComponentProps) => {
   
-  // 1. Determine Context: Are we on the World Map (Index) or a Country Page?
+  // 1. Determine Context
   const isCountryPage = fileData.frontmatter?.tags?.includes("country")
   const isWorldPage = fileData.slug === "index" || fileData.frontmatter?.tags?.includes("atlas")
 
   if (!isCountryPage && !isWorldPage) return null
 
-  // 2. Filter Data based on Context
+  // 2. Filter Data
   let mapPins = []
   
   if (isWorldPage) {
-    // Show only Countries
     mapPins = allFiles.filter((file) => 
       file.frontmatter?.tags?.includes("country") && 
       file.frontmatter?.mapView
@@ -26,8 +23,6 @@ const AtlasMap: QuartzComponent = ({ fileData, allFiles, displayClass }: QuartzC
       type: "country"
     }))
   } else if (isCountryPage) {
-    // Show Field Notes related to this country
-    // (Assuming the country page title matches the tag in the note, e.g., "China")
     const currentCountryTag = fileData.frontmatter?.title?.toLowerCase()
     mapPins = allFiles.filter((file) => 
       file.frontmatter?.tags?.includes(currentCountryTag) && 
@@ -44,13 +39,12 @@ const AtlasMap: QuartzComponent = ({ fileData, allFiles, displayClass }: QuartzC
   // 3. Set Initial View
   const center = isCountryPage 
     ? [fileData.frontmatter?.mapView?.lat, fileData.frontmatter?.mapView?.lng] 
-    : [20, 0] // World Center
+    : [20, 0] 
   const zoom = isCountryPage 
     ? fileData.frontmatter?.mapView?.zoom 
     : 2
 
   // 4. Emit HTML + Script
-  // We serialize the data to pass it to the client-side script
   return (
     <div class={`vintage-map-wrapper ${displayClass ?? ""}`}>
       <div id="lofi-map" style="height: 500px; width: 100%; z-index: 1;"></div>
@@ -59,7 +53,6 @@ const AtlasMap: QuartzComponent = ({ fileData, allFiles, displayClass }: QuartzC
         window.mapData = ${JSON.stringify(mapPins)};
         window.mapView = { center: [${center}], zoom: ${zoom} };
         
-        // Lazy load Leaflet CSS and JS from CDN to avoid build issues
         if (!document.getElementById('leaflet-css')) {
           const link = document.createElement('link');
           link.id = 'leaflet-css';
@@ -79,28 +72,33 @@ const AtlasMap: QuartzComponent = ({ fileData, allFiles, displayClass }: QuartzC
           const map = L.map('lofi-map', {
             center: window.mapView.center,
             zoom: window.mapView.zoom,
-            scrollWheelZoom: false, // Keep it calm
+            scrollWheelZoom: false,
             attributionControl: false
           });
 
-          // THE AESTHETIC TILE LAYER (Esri World Physical)
-          L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Physical_Map/MapServer/tile/{z}/{y}/{x}', {
-            maxZoom: 8,
-            subdomains: 'abcd'
+          // LAYER 1: Stamen Watercolor (The Art)
+          L.tileLayer('https://tiles.stadiamaps.com/tiles/stamen_watercolor/{z}/{x}/{y}.jpg?api_key=ebce596a-b266-4693-ad6c-6695c5f7e623', {
+            maxZoom: 16,
           }).addTo(map);
 
-          // Custom Icon
+          // LAYER 2: Stamen Toner Labels (The Text)
+          // We add this on top so you can actually read the country names
+          L.tileLayer('https://tiles.stadiamaps.com/tiles/stamen_toner_labels/{z}/{x}/{y}.png?api_key=ebce596a-b266-4693-ad6c-6695c5f7e623', {
+            maxZoom: 16,
+            zIndex: 20,
+            opacity: 0.6 // Slightly faded labels to match the lo-fi vibe
+          }).addTo(map);
+
           const inkIcon = L.icon({
-            iconUrl: '/content/assets/ink-pin.png', // Ensure this path is correct
-            iconSize: [24, 24], // Adjust based on your PNG
+            iconUrl: '/content/assets/pin.png', 
+            iconSize: [24, 24], 
             iconAnchor: [12, 12],
             popupAnchor: [0, -10]
           });
 
-          // Add Pins
           window.mapData.forEach(pin => {
             const marker = L.marker([pin.lat, pin.lng], {icon: inkIcon}).addTo(map);
-            marker.bindPopup(\`<b><a href="\${pin.link}" style="font-family: serif;">\${pin.title}</a></b>\`);
+            marker.bindPopup(\`<b><a href="\${pin.link}" style="font-family: serif; color: #5a4a42;">\${pin.title}</a></b>\`);
           });
         }
       `}}></script>
