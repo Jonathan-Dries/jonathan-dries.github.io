@@ -10,31 +10,30 @@
 .landing article {
   margin-top: 0 !important;
 }
-/* 1. The Wrapper */
+/* The Map Container */
 .vintage-map-wrapper {
   position: relative;
   margin: 2rem 0;
-  border: 1px solid #5a4a42;
-  box-shadow: 2px 2px 0px #5a4a42; 
-  border-radius: 2px;
+  border: 1px solid #d4c5b3; /* Lighter, more natural border */
+  border-radius: 4px;
   overflow: hidden;
+  background-color: #f4f1ea; /* Matches the map background if it loads slowly */
 }
 
-/* 2. The Filter (LIGHTER TOUCH) */
-/* We reduce contrast slightly to soften the watercolor paint, but remove the heavy sepia */
+/* 1. Desaturation Logic */
+/* We target the tile pane to only desaturate the MAP, not the PINS */
 .leaflet-tile-pane {
-  filter: contrast(0.9) sepia(0.2); 
+  filter: grayscale(0.3) contrast(0.95); 
+  /* 0.3 means 30% black and white. Increase to 0.5 for more vintage grey look. */
 }
 
-/* 3. The Texture Overlay */
-.vintage-overlay {
-  position: absolute;
-  top: 0; left: 0; width: 100%; height: 100%;
-  background-image: url('/content/assets/paper-texture.png');
-  background-size: cover;
-  opacity: 0.25; /* Keep it subtle */
-  mix-blend-mode: multiply; 
-  pointer-events: none; 
-  z-index: 400; 
-  box-shadow: inset 0 0 50px rgba(60, 40, 20, 0.3);
+/* 2. Clean Popups */
+.leaflet-popup-content-wrapper {
+  background: #fffefb;
+  border: 1px solid #d4c5b3;
+  border-radius: 0;
+  font-family: 'Merriweather', serif; 
+  box-shadow: 4px 4px 0px rgba(0,0,0,0.1); /* Hard shadow for 'card' feel */
 }
+
+/* Remove the old .vintage-overlay class entirely since we aren't using it */
