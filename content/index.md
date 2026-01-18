@@ -4,8 +4,6 @@ description: The field notes and informal archives of Jonathan Dries, PhD Candid
 layout: home
 cssclass: landing
 ---
-# Lo-fi Ethnography
-
 ### *Low fidelity photos. High fidelity stories.*
 
 I am a PhD candidate in Economics at **LUISS University**, particularly interested in how deep-rooted cultural structures interact with formal institutions to drive economic development. While my **[Academic Portfolio](https://sites.google.com/view/jonathandries/home)** contains the formal causal inference and regression tables, this site is an archive of the **[[content/atlas/index|places I've been]]** and the **[[The Liminal Log|journey between them]]**. 

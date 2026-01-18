@@ -2,8 +2,6 @@
 title: Research
 description: Academic publications, working papers, and work in progress by Jonathan Dries.
 ---
-# Research
-
 My research focuses on **Cultural & Institutional Economics**. I am particularly interested in how deep-rooted cultural structures interact with formal institutions and affect economic development.
 
 ---
