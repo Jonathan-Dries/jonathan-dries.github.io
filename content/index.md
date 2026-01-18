@@ -4,7 +4,6 @@ description: The field notes and informal archives of Jonathan Dries, PhD Candid
 layout: home
 cssclass: landing
 ---
-
 # Lo-fi Ethnography
 
 ### *Low fidelity photos. High fidelity stories.*
@@ -23,7 +22,6 @@ I organize my field notes in three dimensions: **Time** (Chronology), **Space** 
     >Chronological narratives from the road. Night trains, border crossings, and the commute.
 * **[[content/atlas/index|The Index of Elsewhere]]** — *Imperfect notes on a messy world.*
     >An interactive atlas. Navigate the map and drop a pin to see notes from that specific region. Maps of China, The Balkans, Indonesia...
-
 * **[[Rough Drafts]]** — *Mapping the human condition.*
     >Recurring threads found across borders. Observations on [[Hospitality]], [[Identity]], [[Ritual]]...
 

@@ -76,3 +76,11 @@
     font-size: 0.9em;
   }
 }
+/* Style for blockquotes in the landing page */
+.landing blockquote {
+  font-style: italic;
+  color: var(--darkgray);
+  border-left: 3px solid var(--secondary); /* Uses your theme's accent color */
+  background: transparent;
+  padding-left: 1rem;
+}
