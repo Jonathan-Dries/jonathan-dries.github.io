@@ -23,9 +23,6 @@ I organize my field notes in three dimensions: **Time** (Chronology), **Space** 
 * **[[Rough Drafts]]** — *Mapping the human condition.*
     >Recurring threads found across borders. Observations on [[Hospitality]], [[Identity]], [[Ritual]]...
 
-### Academic Resources
-* **[[Research]]** — *Detailed overview of my papers and ongoing projects.*
-
 ---
 
 ## Recent Dispatches
@@ -46,4 +43,8 @@ I organize my field notes in three dimensions: **Time** (Chronology), **Space** 
 
 ---
 
-<div style="text-align: center; font-size: 0.8em; opacity: 0.7;"> <p> <a href="https://sites.google.com/view/jonathandries/home">Main Academic Site</a> • <a href="pdfs/cv.pdf">CV</a> • <a href="mailto:jvdries@luiss.it">Contact</a> <br> © 2026 Jonathan Dries </p> </div>
+### Academic Resources
+* **[[Research]]** — *Detailed overview of my papers and ongoing projects.*
+* **[Curriculum Vitae](pdfs/cv.pdf)** — *Full academic CV.*
+
+<div style="text-align: center; font-size: 0.8em; opacity: 0.7; margin-top: 3em;"> <p> <a href="https://sites.google.com/view/jonathandries/home">Main Academic Site</a> • <a href="mailto:jvdries@luiss.it">Contact</a> <br> © 2026 Jonathan Dries </p> </div>
