@@ -59,5 +59,6 @@ My research focuses on **Cultural & Institutional Economics**. I am particularly
 * **Status:** Ongoing
 * **Summary:** Arguing that reliance on roots and tubers as staple crops impedes structural transformation due to high trade costs (bulkiness/perishability), creating multilateral resistance to trade.
 
+---
 
 <div style="text-align: center; font-size: 0.8em; opacity: 0.7;"> <p> <a href="https://sites.google.com/view/jonathandries/home">Main Academic Site</a> • <a href="pdfs/cv.pdf">CV</a> • <a href="mailto:jvdries@luiss.it">Contact</a> <br> © 2026 Jonathan Dries </p> </div>
