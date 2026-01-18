@@ -28,14 +28,16 @@ I organize my field notes in three dimensions: **Time** (Chronology), **Space** 
 
 ---
 
-### Recent Dispatches
+## Recent Dispatches
+*Where I am either currently at, or thinking about.*
 * **[[logs/2024-03-10-market-dynamics|Market Dynamics in Shenzhen]]** — *Observations on supply chain efficiency.*
 * **[[logs/2024-03-08-arrival-marrakech|Arrival in Marrakech]]** — *Sensory overload and the economics of the souk.*
 * **[[logs/2024-02-15-rome-coffee|The Roman Ritual]]** — *Why an espresso costs €1.10.*
 
 ---
 
-### Regional Archives  — *Direct shortcuts to specific field notebooks.*
+## Regional Archives
+*Direct shortcuts to specific field notebooks.*
 * **Asia:** [[Indonesia Travel Log|Indonesia]], [[China Travel Log|China]], **[[India Travel Log|India]]** 
 * **Africa:** [[South Africa Travel Log|South Africa]], [[Lesotho Travel Log|Lesotho]], [[Morocco Travel Log|Morocco]]  
 * **Americas:** [[California Travel Log|California]], [[Mexico Travel Log|Mexico]]  
