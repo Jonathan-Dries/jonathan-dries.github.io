@@ -7,7 +7,7 @@ mapView:
   lat: -7.09
   lng: 31.79
   zoom: 6
-draft: true
+draft: false
 ---
 
 > [!info] Trip Dossier
