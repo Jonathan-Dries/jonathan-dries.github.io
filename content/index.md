@@ -16,7 +16,7 @@ While my academic work uses causal inference to understand development, my [[Tra
 ---
 
 ### Academic Resources
-* [[research]] - Detailed overview of my papers and ongoing projects.
+* [[Research]] - Detailed overview of my papers and ongoing projects.
 * [**CV**](pdfs/cv.pdf) - Full academic curriculum vitae.
 
 ### Field Notes & Photography
@@ -24,9 +24,9 @@ My travel logs serve as a living archive of observations from the field.
 
 * **[[India Travel Log|India]]** *(Research Grant)* - funded by [PRODIGEES](https://cordis.europa.eu/project/id/873119).
 * **Asia:** [[Indonesia Travel Log|Indonesia]], [[China Travel Log|China]]
-* **Africa:** [[South Africa Travel Log|South Africa]], [[Morocco Travel Log|Morocco]]
+* **Africa:** [[South Africa Travel Log|South Africa]], [[Lesotho Travel Log|Lesotho]], [[Morocco Travel Log|Morocco]]
 * **Americas:** [[California Travel Log|California]], [[Mexico Travel Log|Mexico]]
-* **Europe:** [[Ireland Travel Log|Ireland]]
+* **Europe:** [[Ireland Travel Log|Ireland]], [[Balkans Travel Log|Balkans]], [[Andalusia Travel Log|Andalusia]]
 
 ---
 
