@@ -47,4 +47,5 @@ I organize my field notes in three dimensions: **Time** (Chronology), **Space** 
 * **[[Research]]** — *Detailed overview of my papers and ongoing projects.*
 * **[Curriculum Vitae](pdfs/cv.pdf)** — *Full academic CV.*
 
+
 <div style="text-align: center; font-size: 0.8em; opacity: 0.7; margin-top: 3em;"> <p> <a href="https://sites.google.com/view/jonathandries/home">Main Academic Site</a> • <a href="mailto:jvdries@luiss.it">Contact</a> <br> © 2026 Jonathan Dries </p> </div>
