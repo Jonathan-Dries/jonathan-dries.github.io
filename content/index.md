@@ -29,7 +29,7 @@ I organize my field notes in three dimensions: **Time** (Chronology), **Space** 
 ---
 
 ## Recent Dispatches
-*Where I am either currently at, or thinking about.*
+*Current coordinates and recent musings.*
 * **[[logs/2024-03-10-market-dynamics|Market Dynamics in Shenzhen]]** — *Observations on supply chain efficiency.*
 * **[[logs/2024-03-08-arrival-marrakech|Arrival in Marrakech]]** — *Sensory overload and the economics of the souk.*
 * **[[logs/2024-02-15-rome-coffee|The Roman Ritual]]** — *Why an espresso costs €1.10.*
