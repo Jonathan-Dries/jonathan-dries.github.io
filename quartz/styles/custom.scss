@@ -62,3 +62,17 @@
   border: 1px solid #5a4a42 !important;
   font-family: serif;
 }
+/* Custom styling for the "Now" block */
+.callout[data-callout="info"] {
+  background-color: #f4f1ea; /* Paper color */
+  border: 1px solid #d3cec4;
+  border-left: 4px solid #8b735b; /* Leather brown */
+  font-family: var(--bodyFont);
+  
+  .callout-title {
+    font-family: var(--headerFont);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-size: 0.9em;
+  }
+}
