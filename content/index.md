@@ -6,7 +6,7 @@ cssclass: landing
 ---
 ### *Low fidelity photos. High fidelity stories.*
 
-I am a PhD candidate in Economics at **LUISS University**, particularly interested in how deep-rooted cultural structures interact with formal institutions to drive economic development. While my **[Academic Portfolio](https://sites.google.com/view/jonathandries/home)** contains the formal causal inference and regression tables, this site is an archive of the **[[content/atlas/index|places I've been]]** and the **[[The Liminal Log|journey between them]]**. 
+I am a PhD candidate in Economics at **LUISS University**, particularly interested in how deep-rooted cultural structures affect economic development. While my **[Academic Portfolio](https://sites.google.com/view/jonathandries/home)** contains the formal empirical papers, this site is an archive of the **[[content/atlas/index|places I've been]]** and the **[[The Liminal Log|journey between them]]**. 
 
 Here, I wear the hat of **The Lo-fi Ethnographer**. These field notes are imperfect, raw observations from my travels, describing the people, places, and stories that exist before they become statistics. An atlas of the human condition as I see it, unburdened by the rigors of peer review.
 
