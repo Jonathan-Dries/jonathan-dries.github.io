@@ -1,5 +1,5 @@
 ---
-title: morocco
+title: Morocco
 tags:
   - atlas
   - country
