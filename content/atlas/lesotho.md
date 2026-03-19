@@ -8,18 +8,17 @@ draft: false
 > [!info] Trip Dossier
 > **Dates:** TBD
 > **Context:** TBD
-> **Route:** TBD
+> **Route:** Maseru
 
 ### The Overview
-The kingdom in the sky — landlocked, elevated, and unlike anywhere else on the continent.
+The kingdom in the sky.
 
 ---
 
 ### Highlights
-*Selected logs that define this trip.*
+*Selected logs from this trip.*
 
-* **[[logs/semonkong falls|Silence at Maletsunyane]]** — *At the edge of the world.*
-* **[[logs/maseru|The Border at Maseru Bridge]]** — *Two worlds separated by a river.*
+* [[logs/maseru|Maseru]]
 
 ### Complete Archive
 > [!example] Field Notes

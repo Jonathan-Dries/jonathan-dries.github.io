@@ -8,7 +8,7 @@ draft: false
 > [!info] Trip Dossier
 > **Dates:** TBD
 > **Context:** Research Grant (PRODIGEES)
-> **Route:** TBD
+> **Route:** Delhi → Jaipur → Parvati Valley → Agra → Goa → Kochi
 
 ### The Overview
 *Funded by the [PRODIGEES](https://cordis.europa.eu/project/id/873119) research grant.*
@@ -16,11 +16,14 @@ draft: false
 ---
 
 ### Highlights
-*Selected logs that define this trip.*
+*Selected logs from this trip.*
 
-* **[[logs/mumbai|The Dabbawalas of Mumbai]]** — *Six thousand men, two hundred thousand lunches.*
-* **[[logs/varanasi|Burning Ghats at Dusk]]** — *Death as primary industry.*
-* **[[logs/jaipur|Pink City Geometry]]** — *Planned order imposed on organic chaos.*
+* [[logs/delhi|Delhi]]
+* [[logs/jaipur|Jaipur]]
+* [[logs/parvati-valley|Parvati Valley]]
+* [[logs/agra|Agra]]
+* [[logs/goa|Goa]]
+* [[logs/kochi|Kochi]]
 
 ### Complete Archive
 > [!example] Field Notes

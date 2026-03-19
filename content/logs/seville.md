@@ -1,7 +1,5 @@
 ---
-title: "Flamenco in Triana"
-tags: [andalusia, ritual]
-location: [37.3891, -6.0025]
-date: 2024-12-05
+title: Seville
+tags: [andalusia]
+location: [37.3891, -5.9845]
 ---
-In the back room of a bar in Triana, flamenco is not performance — it is conversation...

@@ -61,4 +61,4 @@ My research focuses on **Cultural & Institutional Economics**. I am particularly
 
 ---
 
-<div style="text-align: center; font-size: 0.8em; opacity: 0.7;"> <p> <a href="https://sites.google.com/view/jonathandries/home">Main Academic Site</a> • <a href="pdfs/cv.pdf">CV</a> • <a href="mailto:jvdries@luiss.it">Contact</a> <br> © 2026 Jonathan Dries </p> </div>
+<div style="text-align: center; font-size: 0.8em; opacity: 0.7;"> <p> <a href="https://www.jonathandries.com/">Academic Portfolio</a> • <a href="pdfs/cv.pdf">CV</a> • <a href="mailto:jvdries@luiss.it">Contact</a> <br> © 2026 Jonathan Dries </p> </div>

@@ -8,7 +8,7 @@ draft: false
 > [!info] Trip Dossier
 > **Dates:** TBD
 > **Context:** TBD
-> **Route:** TBD
+> **Route:** Seville → Granada → Cordoba → Cadiz → Malaga
 
 ### The Overview
 TBD
@@ -16,11 +16,13 @@ TBD
 ---
 
 ### Highlights
-*Selected logs that define this trip.*
+*Selected logs from this trip.*
 
-* **[[logs/Andalusia Travel Log|The Alhambra at Closing Time]]** — *Water and geometry, eight centuries patient.*
-* **[[logs/seville|Flamenco in Triana]]** — *Not performance — conversation.*
-* **[[logs/cordoba|The Mezquita's Double Life]]** — *It depends on who is telling the story.*
+* [[logs/seville|Seville]]
+* [[logs/granada|Granada]]
+* [[logs/cordoba|Cordoba]]
+* [[logs/cadiz|Cadiz]]
+* [[logs/malaga|Malaga]]
 
 ### Complete Archive
 > [!example] Field Notes

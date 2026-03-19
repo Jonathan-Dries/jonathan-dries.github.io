@@ -8,7 +8,7 @@ draft: false
 > [!info] Trip Dossier
 > **Dates:** TBD
 > **Context:** TBD
-> **Route:** TBD
+> **Route:** Cape Town → Stellenbosch → Kruger
 
 ### The Overview
 TBD
@@ -16,10 +16,11 @@ TBD
 ---
 
 ### Highlights
-*Selected logs that define this trip.*
+*Selected logs from this trip.*
 
-* **[[logs/cape-town|Table Mountain and the Informal Economy]]** — *Formal and informal economies stacked.*
-* **[[logs/johannesburg|Maboneng After Dark]]** — *A neighbourhood reclaiming itself.*
+* [[logs/cape-town|Cape Town]]
+* [[logs/stellenbosch|Stellenbosch]]
+* [[logs/kruger|Kruger]]
 
 ### Complete Archive
 > [!example] Field Notes

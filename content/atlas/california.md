@@ -8,7 +8,7 @@ draft: false
 > [!info] Trip Dossier
 > **Dates:** TBD
 > **Context:** TBD
-> **Route:** TBD
+> **Route:** Los Angeles → Death Valley → Yosemite → San Francisco → Monterey → San Luis Obispo
 
 ### The Overview
 TBD
@@ -16,11 +16,14 @@ TBD
 ---
 
 ### Highlights
-*Selected logs that define this trip.*
+*Selected logs from this trip.*
 
-* **[[logs/los-angeles|The Freeway as Public Space]]** — *The car is not transport — it is architecture.*
-* **[[logs/san-francisco|Fog and Displacement]]** — *When capital meets culture.*
-* **[[logs/death-valley|Below Sea Level]]** — *Nothing but salt and silence.*
+* [[logs/los-angeles|Los Angeles]]
+* [[logs/death-valley|Death Valley]]
+* [[logs/yosemite|Yosemite]]
+* [[logs/san-francisco|San Francisco]]
+* [[logs/monterey|Monterey]]
+* [[logs/san-luis-obispo|San Luis Obispo]]
 
 ### Complete Archive
 > [!example] Field Notes

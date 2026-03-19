@@ -8,7 +8,7 @@ draft: false
 > [!info] Trip Dossier
 > **Dates:** TBD
 > **Context:** TBD
-> **Route:** TBD
+> **Route:** Mexico City → Teotihuacan
 
 ### The Overview
 TBD
@@ -16,10 +16,10 @@ TBD
 ---
 
 ### Highlights
-*Selected logs that define this trip.*
+*Selected logs from this trip.*
 
-* **[[logs/mexico-city|Sinking City]]** — *Built on a drained lake, returning to water.*
-* **[[logs/oaxaca|Mezcal and Mole]]** — *Every mole recipe is a family tree.*
+* [[logs/mexico-city|Mexico City]]
+* [[logs/teotihuacan|Teotihuacan]]
 
 ### Complete Archive
 > [!example] Field Notes

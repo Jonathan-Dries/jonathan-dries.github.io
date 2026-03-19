@@ -8,7 +8,7 @@ draft: false
 > [!info] Trip Dossier
 > **Dates:** TBD
 > **Context:** TBD
-> **Route:** TBD
+> **Route:** Dublin
 
 ### The Overview
 TBD
@@ -16,10 +16,9 @@ TBD
 ---
 
 ### Highlights
-*Selected logs that define this trip.*
+*Selected logs from this trip.*
 
-* **[[logs/galway|Sessions in Galway]]** — *No conductor, no setlist, no audience.*
-* **[[logs/dublin|Temple Bar Economics]]** — *Tourism as price distortion.*
+* [[logs/dublin|Dublin]]
 
 ### Complete Archive
 > [!example] Field Notes

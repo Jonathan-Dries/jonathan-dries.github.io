@@ -8,7 +8,7 @@ draft: false
 > [!info] Trip Dossier
 > **Dates:** TBD
 > **Context:** TBD
-> **Route:** TBD
+> **Route:** Tirana → Shkoder → Teth → Bar → Belgrade
 
 ### The Overview
 TBD
@@ -16,11 +16,13 @@ TBD
 ---
 
 ### Highlights
-*Selected logs that define this trip.*
+*Selected logs from this trip.*
 
-* **[[logs/Balkans Travel Log|The Old Bridge at Mostar]]** — *Destruction and reconstruction as symbol.*
-* **[[logs/belgrade|Splavovi on the Danube]]** — *Nightlife on the river.*
-* **[[logs/sarajevo|Coffee in Sarajevo]]** — *An argument against efficiency.*
+* [[logs/tirana|Tirana]]
+* [[logs/shkoder|Shkoder]]
+* [[logs/teth|Teth]]
+* [[logs/bar|Bar]]
+* [[logs/belgrade|Belgrade]]
 
 ### Complete Archive
 > [!example] Field Notes
