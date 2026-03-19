@@ -9,7 +9,7 @@ Field notes by Jonathan Dries — economist, reluctant tourist, observer of the 
 
 ---
 
-* **[[content/atlas/index|The Atlas]]** — *Navigate the map. Click a pin. Read a field note.*
+* **[[atlas/index|The Atlas]]** — *Navigate the map. Click a pin. Read a field note.*
 
 * **[[logs/index|Field Notes]]** — *Chronological dispatches from the road.*
 

@@ -19,7 +19,7 @@ Then, **the synthesis** — where I switch hats from traveller to economist. Wha
 
 I organise these notes in three dimensions:
 
-**Space** — **[[content/atlas/index|The Atlas]]** is an interactive map. Each country page collects every field note from that region, pinned to where it was written.
+**Space** — **[[atlas/index|The Atlas]]** is an interactive map. Each country page collects every field note from that region, pinned to where it was written.
 
 **Time** — **[[logs/index|Field Notes]]** are chronological. The journey between destinations — the night trains, border crossings, and waiting rooms where most of the interesting observations happen.
 
