@@ -119,11 +119,11 @@ AtlasMap.afterDOMLoaded = `
 
       var pinStyle = {
         radius: 6,
-        fillColor: "#2b1810",
-        color: "#1a0e08",
+        fillColor: "#5a4a42",
+        color: "#3d302a",
         weight: 1.5,
-        opacity: 0.9,
-        fillOpacity: 0.8,
+        opacity: 0.85,
+        fillOpacity: 0.7,
       };
 
       mapPins.forEach(function (pin) {
