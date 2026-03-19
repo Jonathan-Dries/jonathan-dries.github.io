@@ -1,5 +1,5 @@
 ---
 title: Lombok
 tags: [indonesia]
-location: [-8.65, 116.3249]
+location: [-8.583, 116.1165]
 ---

@@ -1,5 +1,5 @@
 ---
 title: Bar
 tags: [balkans]
-location: [42.0931, 19.1003]
+location: [42.0889, 19.1]
 ---

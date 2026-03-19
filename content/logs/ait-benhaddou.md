@@ -1,5 +1,5 @@
 ---
 title: Ait Benhaddou
 tags: [morocco]
-location: [31.047, -7.1297]
+location: [31.0497, -7.1299]
 ---

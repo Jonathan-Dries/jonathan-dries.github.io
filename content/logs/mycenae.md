@@ -1,5 +1,5 @@
 ---
 title: Mycenae
 tags: [greece]
-location: [37.7306, 22.7561]
+location: [37.7306, 22.7564]
 ---

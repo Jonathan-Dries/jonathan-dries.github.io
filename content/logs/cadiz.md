@@ -1,5 +1,5 @@
 ---
 title: Cadiz
 tags: [andalusia]
-location: [36.5271, -6.2886]
+location: [36.5299, -6.2926]
 ---

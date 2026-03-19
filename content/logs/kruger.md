@@ -1,5 +1,5 @@
 ---
 title: Kruger
 tags: [south africa]
-location: [-23.9884, 31.5547]
+location: [-24.9948, 31.5969]
 ---

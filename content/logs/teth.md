@@ -1,5 +1,5 @@
 ---
 title: Teth
 tags: [balkans]
-location: [42.3781, 19.7625]
+location: [42.3833, 19.7667]
 ---

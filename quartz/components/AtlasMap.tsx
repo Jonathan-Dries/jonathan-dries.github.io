@@ -11,12 +11,13 @@ const AtlasMap: QuartzComponent = ({ fileData, allFiles, displayClass }: QuartzC
   let mapPins = []
 
   if (isCountryPage) {
-    const currentCountryTag = fileData.frontmatter?.title?.toLowerCase()
+    const slugify = (s: string) => s.toLowerCase().replace(/\s+/g, "-")
+    const currentCountryTag = slugify(fileData.frontmatter?.title ?? "")
     const currentSlug = fileData.slug
 
     mapPins = allFiles
       .filter((file) => {
-        const tags = file.frontmatter?.tags?.map((t: string) => t.toLowerCase()) || []
+        const tags = file.frontmatter?.tags?.map((t: string) => slugify(t)) || []
         return (
           tags.includes(currentCountryTag) &&
           file.frontmatter?.location &&

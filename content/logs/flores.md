@@ -1,5 +1,5 @@
 ---
 title: Flores
 tags: [indonesia]
-location: [-8.6574, 121.0794]
+location: [-8.4539, 119.8892]
 ---

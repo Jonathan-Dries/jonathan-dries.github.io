@@ -1,5 +1,5 @@
 ---
 title: Gansu
 tags: [china]
-location: [38.9269, 100.4496]
+location: [38.9348, 100.4517]
 ---

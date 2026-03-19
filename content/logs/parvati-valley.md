@@ -1,5 +1,5 @@
 ---
 title: Parvati Valley
 tags: [india]
-location: [32.05, 77.3167]
+location: [32.0101, 77.3149]
 ---

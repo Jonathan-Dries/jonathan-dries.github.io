@@ -1,5 +1,5 @@
 ---
 title: Epidauros
 tags: [greece]
-location: [37.631, 23.0791]
+location: [37.5963, 23.0792]
 ---

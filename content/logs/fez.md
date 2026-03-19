@@ -1,5 +1,5 @@
 ---
 title: Fez
 tags: [morocco]
-location: [34.0181, -5.0078]
+location: [34.062, -4.9784]
 ---

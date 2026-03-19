@@ -1,5 +1,5 @@
 ---
 title: Seville
 tags: [andalusia]
-location: [37.3891, -5.9845]
+location: [37.3886, -5.9953]
 ---
