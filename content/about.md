@@ -19,11 +19,11 @@ Then, **the synthesis** — where I switch hats from traveller to economist. Wha
 
 I organise these notes in three dimensions:
 
-**Space** — The **[[content/atlas/index|Index of Elsewhere]]** is an interactive atlas. Each country page collects every field note from that region, pinned to the map where it was written.
+**Space** — **[[content/atlas/index|The Atlas]]** is an interactive map. Each country page collects every field note from that region, pinned to where it was written.
 
-**Time** — The **[[logs/index|Liminal Log]]** is chronological. It captures the journey between destinations — the night trains, border crossings, and waiting rooms where most of the interesting observations happen.
+**Time** — **[[logs/index|Field Notes]]** are chronological. The journey between destinations — the night trains, border crossings, and waiting rooms where most of the interesting observations happen.
 
-**Concept** — The **[[themes/index|Rough Drafts]]** are thematic threads that surface across borders. When I notice the same pattern in a Marrakech souk and a Shenzhen market, it becomes a theme page — an evolving essay that connects scattered observations to the academic literature.
+**Concept** — **[[themes/index|Threads]]** are thematic patterns that surface across borders. When I notice the same dynamic in a Marrakech souk and a Shenzhen market, it becomes a thread — an evolving essay connecting scattered observations to the academic literature.
 
 ### Why "lo-fi"
 

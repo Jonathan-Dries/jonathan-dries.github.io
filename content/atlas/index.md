@@ -1,8 +1,5 @@
 ---
-title: Index of Elsewhere
+title: The Atlas
 tags: [atlas]
 ---
-*Imperfect notes on a messy world.*
-
-> [!info] Navigation
-> Click a pin to see the field notes for that country.
+Click a pin to see the field notes for that country.

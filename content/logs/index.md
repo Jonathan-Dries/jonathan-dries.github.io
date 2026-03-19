@@ -1,10 +1,5 @@
 ---
-title: The Liminal Log
+title: Field Notes
 tags: [log]
 ---
-*What happens while you're waiting to get there.*
-
-Chronological narratives from the road. Night trains, border crossings, and the commute. These are raw field notes — imperfect dispatches written in transit, organized by the order in which they happened.
-
-> [!info] Navigation
-> Browse the logs below, or visit the **[[content/atlas/index|Index of Elsewhere]]** to navigate by geography instead.
+Raw dispatches from the road, organized by the order in which they happened. For geographic navigation, visit **[[content/atlas/index|The Atlas]]** instead.
