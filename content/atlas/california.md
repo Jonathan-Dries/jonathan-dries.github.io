@@ -18,6 +18,10 @@ TBD
 ### Highlights
 *Selected logs that define this trip.*
 
+* **[[logs/los-angeles|The Freeway as Public Space]]** — *The car is not transport — it is architecture.*
+* **[[logs/san-francisco|Fog and Displacement]]** — *When capital meets culture.*
+* **[[logs/death-valley|Below Sea Level]]** — *Nothing but salt and silence.*
+
 ### Complete Archive
 > [!example] Field Notes
 > See the **Backlinks** below for the full chronological list of notes from California.

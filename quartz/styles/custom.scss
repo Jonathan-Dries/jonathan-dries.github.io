@@ -38,11 +38,15 @@
   box-shadow: inset 0 0 60px rgba(60, 40, 20, 0.5);
 }
 
-/* 3. FIX FOR THE WHITE PIN BACKGROUND */
-/* This targets the specific class we added in the TSX file */
+/* 3. Pin icon — remove Leaflet's default square background and shadow */
 .lofi-pin-icon {
-  mix-blend-mode: multiply; 
-  /* 'Multiply' makes white pixels transparent and dark pixels darker */
+  background: none !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.leaflet-marker-shadow {
+  display: none !important;
 }
 
 /* 4. Force Controls Visibility */

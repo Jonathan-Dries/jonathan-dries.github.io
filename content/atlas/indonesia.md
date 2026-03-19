@@ -18,7 +18,9 @@ Stories from the archipelago — funerals in Toraja, rice terraces, and the spac
 ### Highlights
 *Selected logs that define this trip.*
 
-* **[[logs/tana toraja|Tana Toraja]]** — *Funeral rites in the highlands.*
+* **[[logs/tana toraja|The Buffalo Sacrifice]]** — *Funeral rites in the highlands.*
+* **[[logs/ubud|Offerings at Dawn]]** — *Canang sari before the tourists wake.*
+* **[[logs/jakarta|Gridlock Economics]]** — *The informal economy between lanes.*
 
 ### Complete Archive
 > [!example] Field Notes

@@ -18,6 +18,9 @@ TBD
 ### Highlights
 *Selected logs that define this trip.*
 
+* **[[logs/mexico-city|Sinking City]]** — *Built on a drained lake, returning to water.*
+* **[[logs/oaxaca|Mezcal and Mole]]** — *Every mole recipe is a family tree.*
+
 ### Complete Archive
 > [!example] Field Notes
 > See the **Backlinks** below for the full chronological list of notes from Mexico.

@@ -18,6 +18,9 @@ TBD
 ### Highlights
 *Selected logs that define this trip.*
 
+* **[[logs/galway|Sessions in Galway]]** — *No conductor, no setlist, no audience.*
+* **[[logs/dublin|Temple Bar Economics]]** — *Tourism as price distortion.*
+
 ### Complete Archive
 > [!example] Field Notes
 > See the **Backlinks** below for the full chronological list of notes from Ireland.

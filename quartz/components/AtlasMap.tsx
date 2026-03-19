@@ -10,20 +10,7 @@ const AtlasMap: QuartzComponent = ({ fileData, allFiles, displayClass }: QuartzC
   // 2. Data Filtering
   let mapPins = []
 
-  if (isAtlasPage) {
-    mapPins = allFiles
-      .filter(
-        (file) =>
-          file.frontmatter?.tags?.includes("country") && file.frontmatter?.mapView,
-      )
-      .map((file) => ({
-        lat: file.frontmatter!.mapView!.lat,
-        lng: file.frontmatter!.mapView!.lng,
-        title: file.frontmatter!.title,
-        link: `/${file.slug}`,
-        type: "country",
-      }))
-  } else if (isCountryPage) {
+  if (isCountryPage) {
     const currentCountryTag = fileData.frontmatter?.title?.toLowerCase()
     const currentSlug = fileData.slug
 
@@ -42,6 +29,19 @@ const AtlasMap: QuartzComponent = ({ fileData, allFiles, displayClass }: QuartzC
         title: file.frontmatter!.title,
         link: `/${file.slug}`,
         type: "note",
+      }))
+  } else if (isAtlasPage) {
+    mapPins = allFiles
+      .filter(
+        (file) =>
+          file.frontmatter?.tags?.includes("country") && file.frontmatter?.mapView,
+      )
+      .map((file) => ({
+        lat: file.frontmatter!.mapView!.lat,
+        lng: file.frontmatter!.mapView!.lng,
+        title: file.frontmatter!.title,
+        link: `/${file.slug}`,
+        type: "country",
       }))
   }
 

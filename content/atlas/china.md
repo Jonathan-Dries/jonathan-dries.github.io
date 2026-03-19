@@ -19,6 +19,8 @@ An archive of observations from across China — from the karst landscapes of Gu
 *Selected logs that define this trip.*
 
 * **[[logs/guilin|River Snails in the Dark]]** — *A night market in Guilin.*
+* **[[logs/beijing|The Queue at Mao's Mausoleum]]** — *Patience and state memory.*
+* **[[logs/shenzhen|Market Dynamics in Shenzhen]]** — *Supply chain efficiency.*
 
 ### Complete Archive
 > [!example] Field Notes

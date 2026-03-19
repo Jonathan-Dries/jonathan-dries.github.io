@@ -18,7 +18,8 @@ The kingdom in the sky — landlocked, elevated, and unlike anywhere else on the
 ### Highlights
 *Selected logs that define this trip.*
 
-* **[[logs/semonkong falls|Semonkong Falls]]** — *At the edge of the world.*
+* **[[logs/semonkong falls|Silence at Maletsunyane]]** — *At the edge of the world.*
+* **[[logs/maseru|The Border at Maseru Bridge]]** — *Two worlds separated by a river.*
 
 ### Complete Archive
 > [!example] Field Notes

@@ -28,8 +28,9 @@ draft: false
 ### ⭐️ Highlights
 *Selected logs that define this trip.*
 
-* **[[logs/notable-log-1|Title of Best Log]]** — *(Why read this?)*
-* **[[logs/notable-log-2|Title of Second Best Log]]**
+* **[[logs/marrakech|Arrival in Marrakech]]** — *Sensory overload and the economics of the souk.*
+* **[[logs/fes|The Tanneries of Fes]]** — *Centuries of the same process.*
+* **[[logs/chefchaouen|Blue Walls and the Tourist Gaze]]** — *Why is everything blue?*
 
 ### 📂 Complete Archive
 > [!example] Field Notes
