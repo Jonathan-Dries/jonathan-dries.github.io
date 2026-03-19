@@ -117,27 +117,17 @@ AtlasMap.afterDOMLoaded = `
         { maxZoom: 16, bounds: worldBounds, opacity: 0.6 }
       ).addTo(map);
 
-      var inkSvg = '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">'
-        + '<circle cx="12" cy="12" r="7" fill="#2b1810" opacity="0.85"/>'
-        + '<circle cx="12" cy="12" r="4" fill="#1a0e08"/>'
-        + '<path d="M12 3 Q13 7 12 5 Q11 7 12 3Z" fill="#2b1810" opacity="0.6"/>'
-        + '<path d="M21 12 Q17 13 19 12 Q17 11 21 12Z" fill="#2b1810" opacity="0.5"/>'
-        + '<path d="M12 21 Q11 17 12 19 Q13 17 12 21Z" fill="#2b1810" opacity="0.6"/>'
-        + '<path d="M3 12 Q7 11 5 12 Q7 13 3 12Z" fill="#2b1810" opacity="0.5"/>'
-        + '<path d="M5.5 5.5 Q8 7 6.5 6.5 Q7 8 5.5 5.5Z" fill="#2b1810" opacity="0.4"/>'
-        + '<path d="M18.5 5.5 Q16 7 17.5 6.5 Q17 8 18.5 5.5Z" fill="#2b1810" opacity="0.4"/>'
-        + '</svg>';
-
-      var inkIcon = L.divIcon({
-        html: inkSvg,
-        className: "lofi-pin-icon",
-        iconSize: [24, 24],
-        iconAnchor: [12, 12],
-        popupAnchor: [0, -12],
-      });
+      var pinStyle = {
+        radius: 6,
+        fillColor: "#2b1810",
+        color: "#1a0e08",
+        weight: 1.5,
+        opacity: 0.9,
+        fillOpacity: 0.8,
+      };
 
       mapPins.forEach(function (pin) {
-        const marker = L.marker([pin.lat, pin.lng], { icon: inkIcon }).addTo(map);
+        var marker = L.circleMarker([pin.lat, pin.lng], pinStyle).addTo(map);
         marker.bindPopup(
           '<b><a href="' + pin.link + '" class="internal" style="font-family: serif; color: #5a4a42; text-decoration: none;">' + pin.title + '</a></b>'
         );
