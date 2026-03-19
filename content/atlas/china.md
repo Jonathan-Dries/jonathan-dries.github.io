@@ -6,9 +6,9 @@ draft: false
 ---
 
 > [!info] Trip Dossier
-> **Dates:** TBD
-> **Context:** TBD
-> **Route:** Beijing → Luoyang → Xi'an → Gansu → Chengdu → Chongqing → Guilin → Guangzhou → Shenzhen → Hong Kong → Macau → Shanghai → Suzhou
+> **Dates:** August 5 – September 3, 2025
+> **Context:** 30-day visa-free travel, solo + with Giulia (Beijing–Chongqing)
+> **Route:** Beijing → Luoyang → Xi'an → Gansu → Chengdu → Dazu → Chongqing → Guilin → Yangshuo → Guangzhou → Shenzhen → Hong Kong → Macau → Shanghai → Suzhou
 
 ### The Overview
 An archive of observations from across China — from the karst landscapes of Guilin to the megacities of the Pearl River Delta.
@@ -19,12 +19,15 @@ An archive of observations from across China — from the karst landscapes of Gu
 *Selected logs from this trip.*
 
 * [[logs/beijing|Beijing]]
+* [[logs/mutianyu|Mutianyu Great Wall]]
 * [[logs/luoyang|Luoyang]]
 * [[logs/xian|Xi'an]]
 * [[logs/gansu|Gansu]]
 * [[logs/chengdu|Chengdu]]
+* [[logs/dazu|Dazu]]
 * [[logs/chongqing|Chongqing]]
 * [[logs/guilin|Guilin]]
+* [[logs/yangshuo|Yangshuo]]
 * [[logs/guangzhou|Guangzhou]]
 * [[logs/shenzhen|Shenzhen]]
 * [[logs/hong-kong|Hong Kong]]
