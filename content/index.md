@@ -4,7 +4,7 @@ description: The field notes and informal archives of Jonathan Dries, PhD Candid
 layout: home
 cssclass: landing
 ---
-Welcome. I am a PhD candidate in Economics at **LUISS University**, particularly interested in how deep-rooted cultural structures affect economic development. While my **[Academic Portfolio](https://sites.google.com/view/jonathandries/home)** contains the formal empirical papers, this site is an archive of the **[[content/atlas/index|places I've been]]** and the **[[The Liminal Log|journey between them]]**. 
+Welcome. I am a PhD candidate in Economics at **LUISS University**, particularly interested in how deep-rooted cultural structures affect economic development. While my **[Academic Portfolio](https://sites.google.com/view/jonathandries/home)** contains the formal empirical papers, this site is an archive of the **[[content/atlas/index|places I've been]]** and the **[[logs/index|journey between them]]**.
 
 ### *Low fidelity photos. High fidelity stories.*
 
@@ -19,33 +19,25 @@ I organize my field notes in three dimensions: **Time** (Chronology), **Space** 
 * **[[logs/index|The Liminal Log]]** — *What happens while you're waiting to get there.*
     >Chronological narratives from the road. Night trains, border crossings, and the commute.
 * **[[content/atlas/index|The Index of Elsewhere]]** — *Imperfect notes on a messy world.*
-    >An interactive atlas. Navigate the map and drop a pin to see notes from that specific region. Maps of China, The Balkans, Indonesia...
-* **[[Rough Drafts]]** — *Mapping the human condition.*
-    >Recurring threads found across borders. Observations on [[Hospitality]], [[Identity]], [[Ritual]]...
-
----
-
-## Recent Dispatches
-*Current coordinates and recent musings.*
-* **[[logs/2024-03-10-market-dynamics|Market Dynamics in Shenzhen]]** — *Observations on supply chain efficiency.*
-* **[[logs/2024-03-08-arrival-marrakech|Arrival in Marrakech]]** — *Sensory overload and the economics of the souk.*
-* **[[logs/2024-02-15-rome-coffee|The Roman Ritual]]** — *Why an espresso costs €1.10.*
+    >An interactive atlas. Navigate the map and click a pin to see notes from that specific region.
+* **[[themes/index|Rough Drafts]]** — *Mapping the human condition.*
+    >Recurring threads found across borders. Observations on [[themes/haggling|haggling]], hospitality, identity, ritual...
 
 ---
 
 ## Regional Archives
 *Direct shortcuts to specific field notebooks.*
-* **Asia:** [[Indonesia Travel Log|Indonesia]], [[China Travel Log|China]], **[[India Travel Log|India]]** 
-* **Africa:** [[South Africa Travel Log|South Africa]], [[Lesotho Travel Log|Lesotho]], [[Morocco Travel Log|Morocco]]  
-* **Americas:** [[California Travel Log|California]], [[Mexico Travel Log|Mexico]]  
-* **Europe:** [[Ireland Travel Log|Ireland]], [[Balkans Travel Log|Balkans]], [[Andalusia Travel Log|Andalusia]]  
+* **Asia:** [[atlas/indonesia|Indonesia]], [[atlas/china|China]], [[atlas/india|India]]
+* **Africa:** [[atlas/south-africa|South Africa]], [[atlas/lesotho|Lesotho]], [[atlas/morocco|Morocco]]
+* **Americas:** [[atlas/california|California]], [[atlas/mexico|Mexico]]
+* **Europe:** [[atlas/ireland|Ireland]], [[atlas/balkans|Balkans]], [[atlas/andalusia|Andalusia]]
 >*Note: The India log was funded by the [PRODIGEES](https://cordis.europa.eu/project/id/873119) research grant.*
 
 ---
 
 ### Academic Resources
-* **[[Research]]** — *Detailed overview of my papers and ongoing projects.*
 * **[Curriculum Vitae](pdfs/cv.pdf)** — *Full academic CV.*
+* **[Academic Portfolio](https://sites.google.com/view/jonathandries/home)** — *Formal research papers and projects.*
 
 ---
 

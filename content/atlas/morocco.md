@@ -4,8 +4,8 @@ tags:
   - atlas
   - country
 mapView:
-  lat: -7.09
-  lng: 31.79
+  lat: 31.79
+  lng: -7.09
   zoom: 6
 draft: false
 ---

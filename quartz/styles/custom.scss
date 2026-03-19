@@ -23,10 +23,7 @@
   pointer-events: auto; /* Ensures map is clickable */
 }
 
-/* 1. Sepia Filter for the Map Tiles */
-.leaflet-tile-pane {
-  filter: sepia(0.6) contrast(1.1) grayscale(0.2);
-}
+/* Stamen Watercolor tiles are already painterly — no filter needed */
 
 /* 2. Paper Texture Overlay */
 .vintage-overlay {
