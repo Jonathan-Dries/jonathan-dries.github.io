@@ -1,5 +1,5 @@
 ---
 title: Kochi
-tags: [india]
+tags: [india, colonial, portuguese]
 location: [9.9312, 76.2673]
 ---

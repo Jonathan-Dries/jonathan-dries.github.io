@@ -1,5 +1,5 @@
 ---
 title: Agra
-tags: [india]
+tags: [india, sacred, archaeology]
 location: [27.1767, 78.0081]
 ---

@@ -1,6 +1,6 @@
 ---
 title: Silent Streets
-tags: [china]
+tags: [china, rural]
 location: [24.7916, 110.4851]
 date: 2025-08-23
 ---

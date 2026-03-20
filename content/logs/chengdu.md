@@ -1,6 +1,6 @@
 ---
 title: A Market for Love
-tags: [china]
+tags: [china, food as boundary, megacity]
 location: [30.6567, 104.0840]
 date: 2025-08-17
 ---

@@ -1,6 +1,6 @@
 ---
 title: Not a Single Original Stone
-tags: [china]
+tags: [china, heritage and authenticity, archaeology]
 location: [40.4407, 116.5592]
 date: 2025-08-09
 ---

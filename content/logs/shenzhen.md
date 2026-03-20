@@ -1,6 +1,6 @@
 ---
 title: From Fishing Nets to Semiconductors
-tags: [china]
+tags: [china, scale, megacity]
 location: [22.5487, 114.0555]
 date: 2025-08-26
 ---

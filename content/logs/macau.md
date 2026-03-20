@@ -1,6 +1,6 @@
 ---
 title: Pressure Valves
-tags: [china]
+tags: [china, trust, borders, colonial, portuguese]
 location: [22.2104, 113.5462]
 date: 2025-08-29
 ---

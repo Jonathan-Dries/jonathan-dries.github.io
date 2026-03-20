@@ -1,6 +1,6 @@
 ---
 title: Luggage in a Stranger's Taxi
-tags: [china]
+tags: [china, trust]
 location: [29.7489, 105.7906]
 date: 2025-08-19
 ---

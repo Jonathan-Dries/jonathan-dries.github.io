@@ -1,5 +1,5 @@
 ---
 title: Goa
-tags: [india]
+tags: [india, colonial, portuguese]
 location: [15.2993, 74.124]
 ---

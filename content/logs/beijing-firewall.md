@@ -1,6 +1,6 @@
 ---
 title: The Great Firewall
-tags: [china]
+tags: [china, borders, megacity]
 location: [39.9057, 116.3913]
 date: 2025-08-05
 ---

@@ -1,6 +1,6 @@
 ---
 title: The Only Open Door
-tags: [china]
+tags: [china, trade routes, colonial, megacity]
 location: [23.1363, 113.2401]
 date: 2025-08-25
 ---

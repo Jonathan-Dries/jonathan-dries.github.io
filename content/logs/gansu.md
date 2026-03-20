@@ -1,6 +1,6 @@
 ---
 title: One Plane at a Time
-tags: [china]
+tags: [china, scale, food as boundary, sacred, rural]
 location: [35.1982, 102.5168]
 date: 2025-08-14
 ---

@@ -1,5 +1,5 @@
 ---
 title: Delhi
-tags: [india]
+tags: [india, colonial, megacity]
 location: [28.6139, 77.209]
 ---

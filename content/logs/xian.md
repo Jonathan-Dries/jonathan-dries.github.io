@@ -1,6 +1,6 @@
 ---
 title: Where the Silk Road Settled
-tags: [china]
+tags: [china, trade routes, sacred]
 location: [34.2965, 108.9424]
 date: 2025-08-11
 ---

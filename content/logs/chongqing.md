@@ -1,6 +1,6 @@
 ---
 title: Ground Floor Is Relative
-tags: [china]
+tags: [china, scale, megacity]
 location: [29.5591, 106.5721]
 date: 2025-08-19
 ---

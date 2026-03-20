@@ -1,6 +1,6 @@
 ---
 title: A Little Door Protecting the Snail
-tags: [china]
+tags: [china, the encounter, food as boundary, rural]
 location: [25.1857, 110.4133]
 date: 2025-08-22
 ---

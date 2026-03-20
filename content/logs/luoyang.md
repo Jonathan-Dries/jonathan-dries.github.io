@@ -1,6 +1,6 @@
 ---
 title: Heritage as a Loop
-tags: [china]
+tags: [china, heritage and authenticity, sacred, archaeology]
 location: [34.5956, 112.4466]
 date: 2025-08-10
 ---

@@ -1,6 +1,6 @@
 ---
 title: The Homecoming
-tags: [china]
+tags: [china, borders, colonial, megacity]
 location: [22.2931, 114.1704]
 date: 2025-08-27
 ---

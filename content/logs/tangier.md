@@ -1,5 +1,5 @@
 ---
 title: Tangier
-tags: [morocco]
+tags: [morocco, colonial]
 location: [35.7673, -5.7998]
 ---

@@ -1,6 +1,6 @@
 ---
 title: Two Beers and a Sunset
-tags: [china]
+tags: [china, the encounter, rural]
 location: [24.7916, 110.4851]
 date: 2025-08-23
 ---
