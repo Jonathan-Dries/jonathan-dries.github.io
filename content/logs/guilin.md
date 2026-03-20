@@ -10,9 +10,3 @@ I arrived in a small town along the Li River after dark. No plan for dinner, jus
 The place was run by a family. The daughter spoke a little English and was visibly proud of this fact, especially in front of her parents. She walked me through the menu with the seriousness of a sommelier. The parents cooked. The specialty was river snails: tiny, curled things that require a toothpick to extract. She taught me the technique. Find the little door that protects the snail, pry it open, and pull. It's fiddly, rewarding, and deeply satisfying once you get the hang of it.
 
 These are the meals that stick. Not the Michelin-starred dinners, not the famous regional dishes you read about in guides. The ones you stumble into by following neon lights down a dark path, where a family is happy to see you, and the specialty involves a toothpick and a little door.
-
----
-
-The next morning, a Li River cruise through the karst mountains to Yangshuo. Eighty people on board, almost all retired domestic tourists. It lasted about four hours. After the first hour or two, roughly seventy-five of them were asleep in their little sofas. They had essentially paid for a four-hour nap with scenic backdrop.
-
-Very cute. Also very practical, because it meant I had the entire upper deck to myself for the best part of the journey. The karst landscape is the background of the 20 yuan bill, and it earns it. Those limestone pillars rising out of the water, wrapped in mist, looking exactly like a classical Chinese painting. The retirees woke up for the last twenty minutes, took pictures, and were satisfied. Different priorities, same river.
